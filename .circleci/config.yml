@@ -21,12 +21,17 @@ jobs:
             - ~/.cache/yarn
 
       - run:
+          name: Install JUnit coverage reporter
+          command: yarn add --dev jest-junit
+          environment:
+            JEST_JUNIT_OUTPUT_DIR: ./reports/jest/
+      - run:
           name: Run tests
           command: yarn test:ci
       - store_test_results:
-          path: ./reports/jest
+          path: ./reports/jest/
       - store_artifacts:
-          path: ./reports/jest
+          path: ./reports/jest/
       - store_artifacts:
           path: ./coverage
 
