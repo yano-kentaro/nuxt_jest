@@ -20,10 +20,15 @@ jobs:
           paths:
             - ~/.cache/yarn
 
-
       - run:
           name: Run tests
-          command: yarn test
+          command: yarn test:ci
+      - store_test_results:
+          path: reports
+      - store_artifacts:
+          path: reports
+      - store_artifacts:
+          path: coverage
 
 workflows:
   version: 2
