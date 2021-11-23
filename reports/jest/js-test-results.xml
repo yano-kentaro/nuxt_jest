@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="jest tests" tests="1" failures="0" errors="0" time="1.685">
-  <testsuite name="NuxtLogo" errors="0" failures="0" skipped="0" timestamp="2021-11-23T07:04:05" time="0.575" tests="1">
-    <testcase classname="NuxtLogo-is a Vue instance" name="NuxtLogo-is a Vue instance" time="0.016">
+<testsuites name="jest tests" tests="1" failures="0" errors="0" time="1.938">
+  <testsuite name="NuxtLogo" errors="0" failures="0" skipped="0" timestamp="2021-11-23T08:04:30" time="0.562" tests="1">
+    <testcase classname="NuxtLogo-is a Vue instance" name="NuxtLogo-is a Vue instance" time="0.018">
     </testcase>
   </testsuite>
 </testsuites>
