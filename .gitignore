@@ -89,5 +89,3 @@ sw.*
 # Vim swap files
 *.swp
 
-# Jest results
-reports
