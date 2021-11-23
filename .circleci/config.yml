@@ -24,11 +24,11 @@ jobs:
           name: Run tests
           command: yarn test:ci
       - store_test_results:
-          path: reports
+          path: ./reports/jest
       - store_artifacts:
-          path: reports
+          path: ./reports/jest
       - store_artifacts:
-          path: coverage
+          path: ./coverage
 
 workflows:
   version: 2
